@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0px;
+    color: black;
+    line-height: 1.6;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: darkblue
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo button {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(112, 37, 0, 0.943);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+.img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+.main-Card {
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    background-color: rgb(80, 144, 186);
+    bottom: 20px;
+    
+}
+.title {
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    width: auto;
+}
+.main2 {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    flex-direction: column;
+}
+.temp {
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.word {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.today-Card {
+    background-color: white;
+}
+main .img{
+    width: 600px;
+    height: 600px;
+}
