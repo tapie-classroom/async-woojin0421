@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <button onclick="reload()"><img class="img" src="data:image/png;base64,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">용산구 날씨</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-Card">
+            <p class="title">용산구</p>
+            <div class="main2">
+                <div class="temp">온도:<div id="tem"></div></div>
+                <div class="word">습도:<div id="seum"></div></div>
+                <div class="word">날씨: <div id="nal"></div></div>
+                <span class="word">바람:<div id="wind"></div></span>
+            </div>
+        </div>
+        <img  src="" alt="날씨">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
